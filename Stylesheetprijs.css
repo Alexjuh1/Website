@@ -1,0 +1,107 @@
+
+img.Logo {
+    margin: auto;
+}
+
+.wrapperlogo {
+    width: 282px;
+    height: 122px;
+    background-color: #009E4F;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+li {
+    float: left;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+a:hover:not(.active) {
+    background-color: #009E4F;
+}
+
+.active {
+    background-color: #009E4F;
+}
+
+body {
+    padding: 0;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    /* background-color: #ffffff; */
+    background-color: #ffffff;
+    vertical-align: middle;
+    /* height: 100%; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    color: #606060;
+    width: 740px;
+}
+
+#Pagina {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #4c7a49;
+}
+
+div {
+    display: block;
+}
+
+#Header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 87px;
+    overflow: hidden;
+    position: relative;
+}
+
+.text {
+    text-align: left;
+}
+
+.offerte {
+    font-size:15px;
+
+}
